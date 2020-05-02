@@ -57,174 +57,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 100,
-										"moneda": "€"
-									},
-									{
-										"valor": 80,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 100,
+									"moneda": "€"
+								},
+								{
+									"valor": 80,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 90,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 85,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 110,
-										"moneda": "€"
-									},
-									{
-										"valor": 80,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 1.4,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 95,
-										"moneda": "€"
-									},
-									{
-										"valor": 85,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 130,
-										"moneda": "€"
-									},
-									{
-										"valor": 110,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 70,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 9,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 85,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 110,
+									"moneda": "€"
+								},
+								{
+									"valor": 80,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 1.4,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 95,
+								"moneda": "€"
+							},
+							{
+								"valor": 85,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 130,
+								"moneda": "€"
+							},
+							{
+								"valor": 110,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 90,
+								"moneda": "€"
+							},
+							{
+								"valor": 70,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 9,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				},
 				{
@@ -269,35 +246,32 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 80,
-										"moneda": "€"
-									},
-									{
-										"valor": 90,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
+						{
+							"base": [{
+									"valor": 80,
+									"moneda": "€"
+								},
+								{
+									"valor": 90,
+									"moneda": "$"
 								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": false
+							]
+							,
+							"impostos": {
+								"valor": 21,
+								"tipus": "%"
 							}
-						],
-						[{
+							,
+							"comisio": {
+								"valor": 5,
+								"tipus": "€"
+							}
+							,
+							"agregador": 0,
+							"temporadaBaixa": false
+						}
+						,
+						{
 								"base": [{
 										"valor": 60,
 										"moneda": "€"
@@ -307,25 +281,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 19,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 5,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 0,
 								"temporadaBaixa": true
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 85,
 										"moneda": "€"
@@ -335,25 +309,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 7,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 50,
 										"moneda": "€"
@@ -363,25 +337,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 4,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": true
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 75,
 										"moneda": "€"
@@ -391,25 +365,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 10,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 45,
 										"moneda": "€"
@@ -419,25 +393,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 3,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": true
-							}
-						]
+						}
 					]
+					
 				},
 				{
 					"id": 2,
@@ -481,7 +455,7 @@
 						}
 					},
 					"preus": [
-						[{
+						{
 								"base": [{
 										"valor": 60,
 										"moneda": "€"
@@ -491,25 +465,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 10,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 0,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 50,
 										"moneda": "€"
@@ -519,25 +493,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 19,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 7,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 0,
 								"temporadaBaixa": true
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 64,
 										"moneda": "€"
@@ -547,25 +521,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 5,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 56,
 										"moneda": "€"
@@ -575,25 +549,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 8,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 56,
 										"moneda": "€"
@@ -603,25 +577,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 9,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 40,
 										"moneda": "€"
@@ -631,24 +605,23 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 4,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": true
-							}
-						]
+						}
 					]
 				}
 			],
@@ -735,7 +708,7 @@
 						}
 					},
 					"preus": [
-						[{
+						{
 								"base": [{
 										"valor": 120,
 										"moneda": "€"
@@ -745,25 +718,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 15,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 0,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 100,
 										"moneda": "€"
@@ -773,25 +746,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 9,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 0,
 								"temporadaBaixa": true
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 115,
 										"moneda": "€"
@@ -801,25 +774,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 6,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 90,
 										"moneda": "€"
@@ -829,25 +802,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 5,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"agregador": 1,
 								"temporadaBaixa": true
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 130,
 										"moneda": "€"
@@ -857,25 +830,25 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 14,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": false
-							}
-						],
-						[{
+						}
+						,
+						{
 								"base": [{
 										"valor": 90,
 										"moneda": "€"
@@ -885,24 +858,23 @@
 										"moneda": "$"
 									}
 								]
-							},
-							{
+							,
+							
 								"impostos": {
 									"valor": 21,
 									"tipus": "%"
 								}
-							},
-							{
+							,
+							
 								"comisio": {
 									"valor": 4,
 									"tipus": "€"
 								}
-							},
-							{
+							,
+							
 								"agregador": 2,
 								"temporadaBaixa": true
-							}
-						]
+						}
 					]
 				},
 				{
@@ -947,174 +919,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 100,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 90,
+									"moneda": "€"
+								},
+								{
+									"valor": 100,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 80,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 80,
-										"moneda": "€"
-									},
-									{
-										"valor": 90,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 95,
-										"moneda": "€"
-									},
-									{
-										"valor": 105,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 75,
-										"moneda": "€"
-									},
-									{
-										"valor": 85,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 100,
-										"moneda": "€"
-									},
-									{
-										"valor": 120,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 14,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 80,
-										"moneda": "€"
-									},
-									{
-										"valor": 90,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 18,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 90,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 95,
+									"moneda": "€"
+								},
+								{
+									"valor": 105,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 75,
+								"moneda": "€"
+							},
+							{
+								"valor": 85,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 100,
+								"moneda": "€"
+							},
+							{
+								"valor": 120,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 14,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 80,
+								"moneda": "€"
+							},
+							{
+								"valor": 90,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 18,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "%"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				},
 				{
@@ -1159,174 +1108,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 50,
-										"moneda": "€"
-									},
-									{
-										"valor": 70,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 50,
+									"moneda": "€"
+								},
+								{
+									"valor": 70,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 40,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 40,
-										"moneda": "€"
-									},
-									{
-										"valor": 45,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 55,
-										"moneda": "€"
-									},
-									{
-										"valor": 65,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 45,
-										"moneda": "€"
-									},
-									{
-										"valor": 55,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 65,
-										"moneda": "€"
-									},
-									{
-										"valor": 75,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 55,
-										"moneda": "€"
-									},
-									{
-										"valor": 65,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 45,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 55,
+									"moneda": "€"
+								},
+								{
+									"valor": 65,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 45,
+								"moneda": "€"
+							},
+							{
+								"valor": 55,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 65,
+								"moneda": "€"
+							},
+							{
+								"valor": 75,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 55,
+								"moneda": "€"
+							},
+							{
+								"valor": 65,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				}
 			],
@@ -1413,174 +1339,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 100,
-										"moneda": "€"
-									},
-									{
-										"valor": 110,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 100,
+									"moneda": "€"
+								},
+								{
+									"valor": 110,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 90,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 100,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 105,
-										"moneda": "€"
-									},
-									{
-										"valor": 115,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 4,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 100,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 115,
-										"moneda": "€"
-									},
-									{
-										"valor": 130,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 110,
-										"moneda": "€"
-									},
-									{
-										"valor": 130,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 100,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 105,
+									"moneda": "€"
+								},
+								{
+									"valor": 115,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 4,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 90,
+								"moneda": "€"
+							},
+							{
+								"valor": 100,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 115,
+								"moneda": "€"
+							},
+							{
+								"valor": 130,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 110,
+								"moneda": "€"
+							},
+							{
+								"valor": 130,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 18,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				},
 				{
@@ -1625,174 +1528,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 90,
-										"moneda": "€"
-									},
-									{
-										"valor": 100,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 90,
+									"moneda": "€"
+								},
+								{
+									"valor": 100,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 80,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 80,
-										"moneda": "€"
-									},
-									{
-										"valor": 85,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 95,
-										"moneda": "€"
-									},
-									{
-										"valor": 105,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 80,
-										"moneda": "€"
-									},
-									{
-										"valor": 85,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 95,
-										"moneda": "€"
-									},
-									{
-										"valor": 105,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 87,
-										"moneda": "€"
-									},
-									{
-										"valor": 97,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 85,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 95,
+									"moneda": "€"
+								},
+								{
+									"valor": 105,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 80,
+								"moneda": "€"
+							},
+							{
+								"valor": 85,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 95,
+								"moneda": "€"
+							},
+							{
+								"valor": 105,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 87,
+								"moneda": "€"
+							},
+							{
+								"valor": 97,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				},
 				{
@@ -1837,174 +1717,151 @@
 						}
 					},
 					"preus": [
-						[{
-								"base": [{
-										"valor": 50,
-										"moneda": "€"
-									},
-									{
-										"valor": 55,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
+						{
+							"base": [{
+									"valor": 50,
+									"moneda": "€"
+								},
+								{
+									"valor": 55,
+									"moneda": "$"
+								}
+							],
+							"impostos": {
 									"valor": 21,
 									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
+								},
+							"comisio": {
 									"valor": 10,
 									"tipus": "€"
-								}
+								},
+							"agregador": 0,
+							"temporadaBaixa": false
+						},
+						{
+						"base": [{
+								"valor": 40,
+								"moneda": "€"
 							},
 							{
-								"agregador": 0,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 40,
-										"moneda": "€"
-									},
-									{
-										"valor": 45,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 19,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 5,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 0,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 55,
-										"moneda": "€"
-									},
-									{
-										"valor": 65,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 50,
-										"moneda": "€"
-									},
-									{
-										"valor": 60,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "%"
-								}
-							},
-							{
-								"agregador": 1,
-								"temporadaBaixa": true
-							}
-						],
-						[{
-								"base": [{
-										"valor": 65,
-										"moneda": "€"
-									},
-									{
-										"valor": 70,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": false
-							}
-						],
-						[{
-								"base": [{
-										"valor": 55,
-										"moneda": "€"
-									},
-									{
-										"valor": 65,
-										"moneda": "$"
-									}
-								]
-							},
-							{
-								"impostos": {
-									"valor": 21,
-									"tipus": "%"
-								}
-							},
-							{
-								"comisio": {
-									"valor": 10,
-									"tipus": "€"
-								}
-							},
-							{
-								"agregador": 2,
-								"temporadaBaixa": true
+								"valor": 45,
+								"moneda": "$"
 							}
 						]
+						,
+						"impostos": {
+							"valor": 19,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 5,
+							"tipus": "%"
+						}
+						,
+						"agregador": 0,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+									"valor": 55,
+									"moneda": "€"
+								},
+								{
+									"valor": 65,
+									"moneda": "$"
+								}
+							]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 50,
+								"moneda": "€"
+							},
+							{
+								"valor": 60,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "%"
+						}
+						,
+						"agregador": 1,
+						"temporadaBaixa": true
+						}
+						,
+						{
+						"base": [{
+								"valor": 65,
+								"moneda": "€"
+							},
+							{
+								"valor": 70,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "€"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": false
+						}
+						,
+						{
+						"base": [{
+								"valor": 55,
+								"moneda": "€"
+							},
+							{
+								"valor": 65,
+								"moneda": "$"
+							}
+						]
+						,
+						"impostos": {
+							"valor": 21,
+							"tipus": "%"
+						}
+						,
+						"comisio": {
+							"valor": 10,
+							"tipus": "#"
+						}
+						,
+						"agregador": 2,
+						"temporadaBaixa": true
+						}
 					]
 				}
 			],
